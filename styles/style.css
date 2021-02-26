@@ -1774,4 +1774,56 @@ footer {
     color: #333333;
   }
 
+  /* /////////////// УБИРАЕМ HOVER /////////// */
+  .category_img-capture:not(.nohover) {
+    transform:none;
+    font-size: .7rem;
+  }
+
+  .main__gallery_item:not(.nohover) {
+    transform: none;
+  }
+  .main_gallery_item-img:not(.nohover) {
+    border-radius: 20px;
+  }
+
+  .main__title-button:not(.nohover) {
+    all: none;
+    background: #333;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .product_item:not(.nohover){
+    color: #333;
+    background: none;
+    transform: scale(1);
+    box-shadow: none;
+    font-weight: 500;
+    font-size: .9rem;
+    box-shadow: 4px 4px 0 1px #f9f9f9, 4px 4px 0 1.7px #d6d6d6;
+  }
+
+  
+  .product__category-img:not(.nohover) {
+    border-radius: 20px;
+  }
+  
+  .article_button-link:not(.nohover) {
+    background: white;
+    color: #333;
+    border: 1px solid black;
+  }
+
+  .gallery_button-a:not(.nohover) {
+    background: #333;
+    color: white;
+    font-size: 1rem;
+    transition: none;
+    border: none;
+  }
+
+  *{
+    transition: 0s;
+  }
 }
