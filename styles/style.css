@@ -267,6 +267,7 @@ footer {
   }
 
   .burger__nav.active {
+    content: "";
     position: absolute;
     background-color: #333;
     left: 0;
@@ -398,6 +399,7 @@ footer {
   }
 
   .burger-menu > span {
+    content: "";
     position: absolute;
     background-color: white;
     left: 0;
@@ -581,7 +583,6 @@ footer {
 }
 
 .category_img-capture {
-  content: "";
   position: absolute;
   text-align: center;
   z-index: 100;
@@ -742,7 +743,6 @@ footer {
 }
 
 .main_gallery_item-a {
-  content: " ";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -759,7 +759,6 @@ footer {
 }
 
 .main_gallery_item-img {
-  content: " ";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -840,7 +839,7 @@ footer {
 }
 
 .social_gallery-img {
-  content: "";
+
   position: absolute;
   left: 0;
   top: 0;
@@ -1301,7 +1300,6 @@ footer {
   }
 
   .category_img-capture {
-    content: "";
     position: absolute;
     text-align: center;
     z-index: 100;
@@ -1450,7 +1448,7 @@ footer {
     }
 
     .main_gallery_item-a {
-      content: " ";
+
       position: absolute;
       width: 100%;
       height: 100%;
@@ -1861,7 +1859,7 @@ footer {
   }
 
   .category_img-capture {
-    content: "";
+
     position: absolute;
     text-align: center;
     z-index: 100;
@@ -1982,7 +1980,7 @@ footer {
   }
 
   .main_gallery_item-a {
-    content: " ";
+  
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2000,7 +1998,7 @@ footer {
   }
   
   .main_gallery_item-img {
-    content: " ";
+
     position: absolute;
     width: 100%;
     height: 100%;
